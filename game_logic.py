@@ -66,4 +66,4 @@ class VirtualPetML:
             return self.model.predict(features)[0]
         else:
             # fallback random mood
-            return np.random.choice(["Happy 😃", "Sad 😢", "Hungry 😩", "Tired 😴"])
+            return np.random.choice(["Happy 😃", "Sad 😢", "Hungry 😩", "Tired 😴"]) 
